@@ -1,0 +1,26 @@
+{
+  "info": {
+    "name": "HelloWorld",
+    "authors": [
+      {
+        "name": "DaSushiAsian",
+        "discord_id": "214836288048594944",
+        "github_username": "tommyothen",
+        "twitter_username": "dasushiasian"
+      }
+    ],
+    "version": "0.0.1",
+    "description": "A simple starter Hello World plugin",
+    "github": "https://github.com/tommyothen/BetterDiscordPlugins/tree/master/dist/HelloWorld",
+    "github_raw": "https://raw.githubusercontent.com/tommyothen/BetterDiscordPlugins/master/dist/HelloWorld/HelloWorld.plugin.js"
+  },
+  "changelog": [
+    {
+      "title": "Initial Release",
+      "items": [
+        "Started development"
+      ]
+    }
+  ],
+  "main": "index.js"
+}

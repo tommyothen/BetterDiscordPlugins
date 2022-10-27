@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "build": "ts-node --skipProject scripts/build",
+    "init": "ts-node --skipProject scripts/init",
+    "build:zpl": "zpl build",
+    "init:zpl": "zpl init"
+  },
+  "dependencies": {
+    "zerespluginlibrary": "^2.0.6"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.7",
+    "@types/react": "^18.0.23",
+    "@types/react-dom": "^18.0.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  }
+}

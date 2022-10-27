@@ -1,0 +1,12 @@
+module.exports = (pluginName) => ({
+  default: {
+    author: {
+      name: "Your Name",
+      discord_id: "Your Discord ID",
+      github_username: "Your GitHub Username",
+      twitter_username: "Your Twitter Username",
+    },
+    github: `https://github.com/Your Name/Your Repo/tree/master/dist/${pluginName}`,
+    github_raw: `https://raw.githubusercontent.com/Your Name/Your Repo/master/dist/${pluginName}/${pluginName}.plugin.js`,
+  },
+});
